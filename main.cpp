@@ -29,6 +29,7 @@ int main()
         cout<<"        1 pour creer un vecteur !"<<endl;
         cout<<"        2 pour acceder à un élement en lecture ou ecriture !"<<endl;
         cout<<"        3 pour faire la somme de 2 vecteurs !"<<endl;
+        cout<<"        4 pour supprimer un element du tableau !"<<endl;
 
     }while(choix!=0);
 
