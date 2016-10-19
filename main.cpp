@@ -66,15 +66,15 @@ int main()
 
             case 5 :
 
-                    if (mon_Vect-<comparer(*tel_Vect)!=true)
+                    if (mon_Vect->comparer(*tel_Vect)==true)
                     {
                         cout << "les 2 vecteurs sont egaux !";
                     }
                     else
                     {
-                        cin << "les 2 vecteurs ne sont pas egaux !":
+                        cout << "les 2 vecteurs ne sont pas egaux !";
                     }
-            break:
+            break;
 
 
             case 6 : mon_Vect->supprimer(); mon_Vect->afficher();
