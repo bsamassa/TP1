@@ -97,6 +97,23 @@ void Vecteur::supprimer()
 
 }
 
+bool Vecteur::comparer(Vecteur tel_vect)
+{
+    if (taille!=tel_vect.get_taille())
+    return false;
+
+    for(int i=0; i<taille; i++)
+    {
+
+        if(vect[i]!=tel_vect.get_val(i))
+        return false;
+
+    }
+
+    return true;
+
+}
+
 Vecteur::~Vecteur()
 {
     if(vect != NULL)

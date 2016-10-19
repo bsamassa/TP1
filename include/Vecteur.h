@@ -15,6 +15,7 @@ class Vecteur
         void afficher();
         void remplir();
         void supprimer();
+        bool comparer( Vecteur tel_vect);
         virtual ~Vecteur();
     protected:
     private:
