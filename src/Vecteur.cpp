@@ -71,6 +71,17 @@ void Vecteur::remplir()
 
 }
 
+float Vecteur::somme()
+{
+    float somme = 0;
+    for(int i=0; i<taille; i++)
+    {
+        somme += vect[i];
+    }
+
+    return somme;
+}
+
 void Vecteur::supprimer()
 {
     int index;
