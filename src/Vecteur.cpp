@@ -63,7 +63,7 @@ void Vecteur::remplir()
     int val;
     for(int i=0; i<taille; i++)
     {
-        cout << "entrer la "<< i+1<< " ème valeur: ";
+        cout << "entrer la "<< i*651<< " ème valeur: ";
         cin >> val ;
         cout << endl;
         this->set_val(i,val);
