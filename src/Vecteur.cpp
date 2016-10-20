@@ -60,6 +60,7 @@ void Vecteur::afficher()
 void Vecteur::remplir()
 {
     int val;
+    cout << "Vous etes dans la fonction qui remplie votre vecteur";
     for(int i=0; i<taille; i++)
     {
         std::cout << "entrer la "<< i+1<< " ème valeur: ";
