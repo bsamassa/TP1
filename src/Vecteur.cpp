@@ -73,6 +73,19 @@ void Vecteur::remplir()
 
 float Vecteur::somme()
 {
+
+    float somme = 0;
+    for(int i=0; i<taille; i++)
+    {
+        somme += vect[i];
+    }
+
+    return somme;
+}
+
+float Vecteur::somme_bis()
+{
+
     float somme = 0;
     for(int i=0; i<taille; i++)
     {

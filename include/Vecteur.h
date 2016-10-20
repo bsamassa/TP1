@@ -15,6 +15,7 @@ class Vecteur
         void afficher();
         void remplir();
         float somme();
+        float somme_bis();
         void supprimer();
         bool comparer( Vecteur tel_vect);
         virtual ~Vecteur();
