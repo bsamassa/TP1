@@ -60,6 +60,7 @@ void Vecteur::afficher()
 }
 void Vecteur::remplir()
 {
+
     int val;
     for(int i=0; i<taille; i++)
     {
@@ -68,6 +69,7 @@ void Vecteur::remplir()
         cout << endl;
         this->set_val(i,val);
     }
+
 
 }
 
