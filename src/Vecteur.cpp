@@ -1,4 +1,5 @@
 #include "Vecteur.h"
+using namespace std;
 
 Vecteur::Vecteur(int tel_taille)
 {
@@ -62,9 +63,9 @@ void Vecteur::remplir()
     int val;
     for(int i=0; i<taille; i++)
     {
-        std::cout << "entrer la "<< i+1<< " ème valeur: ";
-        std::cin >> val;
-        std::cout<< std::endl;
+        cout << "entrer la "<< i+1<< " ème valeur: ";
+        cin >> val ;
+        cout << endl;
         this->set_val(i,val);
     }
 
